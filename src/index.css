@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: light;
+  src: url("./fonts/light.otf");
+}
+
+@font-face {
+  font-family: semi;
+  src: url("./fonts/semi.otf");
+}
+
+@font-face {
+  font-family: vio;
+  src: url("./fonts/vio.otf");
+}
+
+@font-face {
+  font-family: book;
+  src: url("./fonts/book.otf");
+}
+
+@font-face {
+  font-family: roman;
+  src: url("./fonts/roman.otf");
+}
+
+.semi {
+  font-family: "semi";
+}
+
+.vio {
+  font-family: "vio";
+}
+
+.book {
+  font-family: "book";
+}
+
+.roman {
+  font-family: "roman";
+}
+
+.b {
+  backdrop-filter: blur(10px);
+}
+
+#one {
+  background-color: #f6f7f8;
+}
+
+#two {
+  background-color: #fff;
+}
+
+#three,
+#feed {
+  color: #fff;
+}
+
+#nfeed h5 {
+  color: #424242;
+}
+
+.grad-text {
+  background: var(--color, linear-gradient(180deg, #8483ff 0%, #fff 100%));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.grad,
+#three,
+#feed {
+  background: var(--color, linear-gradient(180deg, #fff 0%, #8483ff 100%));
+}
+
+.showcasebg {
+  background: linear-gradient(180deg, #fff 0%, #d1d0ff 48.44%, #fff 100%);
+}
+
+.hov {
+  background: #f6f7f8;
+}
+
+.hov:hover {
+  background: var(--color, linear-gradient(180deg, #fff 0%, #8483ff 100%));
+  color: #fff;
+}
+
+.case-hov {
+  border: 0;
+}
+
+.case-hov:hover {
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to top, #8483ff , #fff) 1;
+}
+
+.home-bg {
+  background: linear-gradient(180deg, #fff 0%, #8483ff 48.44%, #fff 100%);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  animation: spin 5s linear infinite;
+}
+
+.char{
+  opacity: 0;
+  transform: translateY(20px);
+  transition: transform .5s;
+}

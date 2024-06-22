@@ -1,0 +1,35 @@
+[
+  {
+    "title": "User Experience & User interface design",
+    "details": "By putting users' needs at the forefront, we tell a unique story of your company, juggling with fancy visual elements.",
+    "tag1": "Ui/ux Design",
+    "tag2": "Design System",
+    "tag3": "Saas Design",
+    "tag4": "Web Design",
+    "tag5": "Mobile App",
+    "tag6": "User Research",
+    "id": "one"
+  },
+  {
+    "title": "Webflow & Custom Development",
+    "details": "The motto of our development process is creating digitalexperiences that are both appealing and functional.",
+    "tag1": "React",
+    "tag2": "Website",
+    "tag3": "Webflow",
+    "tag4": "Framer",
+    "tag5": "Front-end",
+    "tag6": "Backend",
+    "id": "two"
+  },
+  {
+    "title": "Business Development",
+    "details": "With various tools, our experts can help you expand the target audience and increase brand awareness.",
+    "tag1": "Branding Design",
+    "tag2": "S.E.O",
+    "tag3": "Motion Design",
+    "tag4": "Strategy",
+    "tag5": "Social Media",
+    "tag6": "Pitch Deck",
+    "id": "three"
+  }
+]
