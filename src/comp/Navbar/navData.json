@@ -1,0 +1,18 @@
+[
+    {
+        "id": "home",
+        "title": "Introduction"
+      },
+      {
+        "id": "showcase",
+        "title": "Showcase"
+      },
+      {
+        "id": "feedback",
+        "title": "Feedback"
+      },
+      {
+        "id": "contact",
+        "title": "Contact"
+      }
+]
