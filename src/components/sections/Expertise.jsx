@@ -1,9 +1,10 @@
 import React from "react";
-import exp from "./expData.json";
+import data from "../data/data.json"
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 
 export const Expertise = () => {
+  const exp = data.Expertise
   return (
     <div id="expertise" className="mt-[50px]">
       <div>

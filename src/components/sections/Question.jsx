@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import que from "./queData.json";
+import data from "../data/data.json"
 import { motion } from "framer-motion";
 
 export const Question = () => {
+  const que = data.Question
   const [show, setShow] = useState(false);
 
   const ShowName = () => {

@@ -1,5 +1,5 @@
 import React from "react";
-import cas from "./caseData.json";
+import data from "../data/data.json"
 import { Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 import { motion } from "framer-motion";
 
 export const Case = () => {
+  const cas = data.Case
   return (
     <div id="case" className="text-[50px] bg-black py-[100px] text-white">
       <motion.h1
