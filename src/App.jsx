@@ -1,12 +1,12 @@
 import React from "react";
-import { Navbar } from "./comp/Navbar/Navbar";
-import { Home } from "./comp/Home/Home";
-import { Showcase } from "./comp/Showcase/Showcase";
-import { Expertise } from "./comp/Expertise/Expertise";
-import { Case } from "./comp/Case/Case";
-import { Question } from "./comp/Question/Question";
-import { Feedback } from "./comp/Feedback/Feedback";
-import { Contact } from "./comp/Contact/Contact";
+import { Navbar } from "./components/sections/Navbar";
+import { Home } from "./components/sections/Home";
+import { Showcase } from "./components/sections/Showcase";
+import { Expertise } from "./components/sections/Expertise";
+import { Case } from "./components/sections/Case";
+import { Question } from "./components/sections/Question";
+import { Feedback } from "./components/sections/Feedback";
+import { Contact } from "./components/sections/Contact";
 
 function App() {
   return (

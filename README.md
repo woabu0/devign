@@ -1,41 +1,48 @@
-# themshstudio - Agency Website
+# Devign - Agency Application
 
-Welcome to the themshstudio project! This README provides an overview of the project, setup instructions, and other relevant details.
+Welcome to the **Devign** project! This README provides an overview of the project, setup instructions, and other relevant details.
 
 ## Table of Contents
+
 - [Visit](#visit)
 - [About](#about)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Contributors](#contributors)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Visit
-- [Netlify](https://themshstudio.netlify.app/)
+
+- [Vercel](https://hyro0.vercel.app/)
 
 ## About
-themshstudio is an agency website designed to attract clients. It aims to provide seamless website and app development services.
+
+**Devign** is an agency website designed to attract clients. It aims to provide seamless website and app development services.
 
 ## Features
 - Navbar
-- Hero Section
-- Project Showcase
+- Home
+- Showcase
+- Expertise
+- Case
+- Questions
 - Feedback
 - Contact
 
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/imabu0/themshstudio.git
+    git clone https://github.com/woabu0/devign.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd themshstudio
+    cd devign
     ```
 3. Install dependencies:
     ```bash
-    npm add vite
+    npm add vite@latest
     ```
 
 ## Usage
@@ -47,6 +54,14 @@ themshstudio is an agency website designed to attract clients. It aims to provid
     ```
     http://localhost:5173
     ```
+
+## Contributors
+
+<p align="center">
+  <a href="https://github.com/imabu0/Hyro/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=imabu0/Hyro" alt="Contributors" />
+  </a>
+</p>
 
 ## Contributing
 Contributions are welcome! Please follow these steps:

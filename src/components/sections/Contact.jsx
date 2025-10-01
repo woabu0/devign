@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
-import interest from "./interestData.json";
-import budget from "./budgetData.json";
+import data from "../data/data.json"
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
@@ -26,6 +25,9 @@ export const Contact = () => {
         }
       );
   };
+
+  const interest = data.Interest
+  const budget = data.Budget;
   return (
     <div
       id="contact"
@@ -167,7 +169,7 @@ export const Contact = () => {
           />
         </motion.div>
       </form>
-      <div className="mt-[100px] mb-[60px] flex flex-col gap-[60px] text-[10px] md:text-[14px] lg:text-[16px] 2xl:text-[22px] uppercase">
+      <div className="py-12 flex flex-col gap-14 text-[10px] md:text-[14px] lg:text-[16px] 2xl:text-[22px] uppercase">
         <motion.div
           initial={{ width: 0 }}
           whileInView={{ width: "100%" }}
@@ -180,7 +182,7 @@ export const Contact = () => {
             whileInView={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
           >
-            © All rights reserved by msh.studio
+            © All rights reserved by devign
           </motion.h6>
           <motion.div
             initial={{ y: 30, opacity: 0 }}
@@ -189,7 +191,7 @@ export const Contact = () => {
             className="flex gap-5 md:gap-[50px]"
           >
             <h6>Sitemap</h6>
-            <h6>Privacy Poh6cy</h6>
+            <h6>Privacy Policy</h6>
             <h6>Terms of Use</h6>
             <h6>Cookie Policy</h6>
           </motion.div>

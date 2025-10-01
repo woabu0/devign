@@ -27,6 +27,19 @@
   src: url("./fonts/roman.otf");
 }
 
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: black;
+  font-family: "light";
+  cursor: none;
+  height: 100vh;
+}
+
 .semi {
   font-family: "semi";
 }

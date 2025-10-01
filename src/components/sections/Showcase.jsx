@@ -1,6 +1,5 @@
 import React from "react";
-import myVideo from "./vid.mp4";
-import { motion } from "framer-motion";
+import showcase from "/img/showcase.mp4";
 import Marquee from "react-fast-marquee";
 
 export const Showcase = () => {
@@ -18,8 +17,9 @@ export const Showcase = () => {
           autoPlay
           muted
           loop
+          width={1000}
           className="m-auto block rounded-[20px]"
-          src={myVideo}
+          src={showcase}
         ></video>
       </div>
     </div>
