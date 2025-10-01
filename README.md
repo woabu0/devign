@@ -15,7 +15,7 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 
 ## Visit
 
-- [Vercel](https://hyro0.vercel.app/)
+- [Vercel](https://devign0.vercel.app/)
 
 ## About
 
@@ -58,8 +58,8 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 ## Contributors
 
 <p align="center">
-  <a href="https://github.com/imabu0/Hyro/graphs/contributors">
-    <img src="https://contrib.rocks/image?repo=imabu0/Hyro" alt="Contributors" />
+  <a href="https://github.com/imabu0/devign/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=imabu0/devign" alt="Contributors" />
   </a>
 </p>
 
