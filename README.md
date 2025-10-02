@@ -19,9 +19,10 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 
 ## About
 
-**Devign** is an agency website designed to attract clients. It aims to provide seamless website and app development services.
+**Devign** is a digital agency offering creative design and modern development services. We craft user-centric experiences, powerful interfaces, and innovative solutions for your brand.
 
 ## Features
+
 - Navbar
 - Home
 - Showcase
@@ -32,28 +33,30 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 - Contact
 
 ## Installation
+
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/woabu0/devign.git
-    ```
+   ```bash
+   git clone https://github.com/woabu0/devign.git
+   ```
 2. Navigate to the project directory:
-    ```bash
-    cd devign
-    ```
+   ```bash
+   cd devign
+   ```
 3. Install dependencies:
-    ```bash
-    npm add vite@latest
-    ```
+   ```bash
+   npm add vite@latest
+   ```
 
 ## Usage
+
 1. Start the application:
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 2. Open your browser and navigate to:
-    ```
-    http://localhost:5173
-    ```
+   ```
+   http://localhost:5173
+   ```
 
 ## Contributors
 
@@ -64,21 +67,24 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 </p>
 
 ## Contributing
+
 Contributions are welcome! Please follow these steps:
+
 1. Fork the repository.
 2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
+   ```bash
+   git checkout -b feature-name
+   ```
 3. Commit your changes:
-    ```bash
-    git commit -m "Add feature-name"
-    ```
+   ```bash
+   git commit -m "Add feature-name"
+   ```
 4. Push to the branch:
-    ```bash
-    git push origin feature-name
-    ```
+   ```bash
+   git push origin feature-name
+   ```
 5. Open a pull request.
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).

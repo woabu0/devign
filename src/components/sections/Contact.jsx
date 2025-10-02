@@ -1,33 +1,11 @@
 import React, { useRef } from "react";
 import data from "../data/data.json"
-import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
 
 export const Contact = () => {
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
-        form.current,
-        "YOUR_PUBLIC_KEY"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-  };
-
   const interest = data.Interest
   const budget = data.Budget;
+
   return (
     <div
       id="contact"
@@ -56,8 +34,6 @@ export const Contact = () => {
         all the things_
       </motion.h1>
       <form
-        ref={form}
-        onSubmit={sendEmail}
         className="w-[360px] md:w-[530px] lg:w-[750px] m-auto mt-[70px] flex flex-col gap-[35px]"
       >
         <div className="flex flex-col md:flex-row items-center justify-between text-[16px] placeholder:text-[#C7C7C7]">
