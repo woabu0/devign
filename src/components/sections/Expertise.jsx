@@ -1,20 +1,14 @@
 import React from "react";
-import data from "../data/data.json"
+import data from "../data/data.json";
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 
 export const Expertise = () => {
-  const exp = data.Expertise
+  const exp = data.Expertise;
   return (
-    <div id="expertise" className="mt-[50px]">
-      <div>
-        <Marquee
-          pauseOnHover={true}
-          speed={100}
-          className="text-[70px] md:text-[100px] lg:text-[150px] xl:text-[205px] 2xl:text-[276px] leading-[1.2]"
-        >
-          Our studio is safe space where startups grow and shine.
-        </Marquee>
+    <div id="expertise" className="mt-12">
+      <div className="text-7xl leading-[1.2]">
+        Our studio is safe space where startups grow and shine.
       </div>
       <div className="w-[360px] md:w-[535px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1440px] m-auto my-[50px]">
         <div className="w-full flex justify-end">

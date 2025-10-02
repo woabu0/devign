@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar } from "./components/sections/Navbar";
 import { Home } from "./components/sections/Home";
-import { Showcase } from "./components/sections/Showcase";
 import { Expertise } from "./components/sections/Expertise";
 import { Case } from "./components/sections/Case";
 import { Question } from "./components/sections/Question";
@@ -13,7 +12,6 @@ function App() {
     <div>
       <Navbar />
       <Home />
-      <Showcase />
       <Expertise />
       <Case />
       <Question />
