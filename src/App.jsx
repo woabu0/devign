@@ -17,7 +17,6 @@ function App() {
       <Question />
       <Feedback />
       <Contact />
-      
     </div>
   );
 }

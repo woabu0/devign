@@ -13,7 +13,13 @@ export default {
 
       "2xl": "1536px",
     },
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#B9FF66",
+        secondary: "#F3F3F3",
+        black: "#191A23",
+      },
+    },
   },
   plugins: [],
 };

@@ -1,176 +1,95 @@
-import React, { useRef } from "react";
-import data from "../data/data.json"
+import React from "react";
+import data from "../data/data.json";
 import { motion } from "framer-motion";
+import SectionTitle from "../ui/section-title";
+import Input from "../ui/input";
 
 export const Contact = () => {
-  const interest = data.Interest
-  const budget = data.Budget;
+  const interest = data.Interest;
 
   return (
-    <div
-      id="contact"
-      className="mt-[195px] w-[360px] md:w-[535px] lg:w-[800px] xl:w-[1000px] 2xl:w-[1440px] m-auto text-[18px]"
-    >
-      <motion.h1
-        initial={{ y: -30, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        className="text-[60px] md:text-[90px] lg:text-[150px] xl:text-[180px] 2xl:text-[260px] flex items-center leading-none"
-      >
-        Hey!{" "}
-        <img
-          src="img/shake.svg"
-          alt="shake"
-          className="w-[49px] h-[49px] md:w-[80px] lg:w-[140px] md:h-[80px] lg:h-[140px] 2xl:w-[192px] 2xl:h-[192px]"
-        />{" "}
-        Tell us
-      </motion.h1>
-      <motion.h1
-        initial={{ y: 30, opacity: 0 }}
-        whileInView={{ y: 0, opacity: 1 }}
-        transition={{ duration: 0.6 }}
-        className="text-[60px] md:text-[90px] lg:text-[150px] xl:text-[180px] 2xl:text-[260px] leading-none"
-      >
-        all the things_
-      </motion.h1>
-      <form
-        className="w-[360px] md:w-[530px] lg:w-[750px] m-auto mt-[70px] flex flex-col gap-[35px]"
-      >
-        <div className="flex flex-col md:flex-row items-center justify-between text-[16px] placeholder:text-[#C7C7C7]">
-          <motion.div
-            initial={{ y: -30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="flex flex-col"
-          >
-            <label>Name & Company</label>
-            <input
+    <div id="contact" className="mt-24 w-[1280px] m-auto">
+      <SectionTitle
+        heading="Contact"
+        paragraph="Have questions or want to start a project? Our team is here to help. Reach out and we’ll provide the guidance, support, and expertise you need to bring your ideas to life."
+      />
+      <form className="w-[360px] md:w-[530px] lg:w-[950px] m-auto mt-10 flex flex-col gap-5">
+        <div className="flex flex-col gap-3">
+          <h1 className="text-xl">My details</h1>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-3">
+            <Input
+              label="Name"
               type="text"
-              name="user_name"
-              placeholder="Jhon from apple"
-              className="border-b-[1px] w-[360px] md:w-[250px] lg:w-[300px] py-3 focus:outline-none"
+              name="name"
+              placeholder="Enter Your Name"
               required
             />
-          </motion.div>
-          <motion.div
-            initial={{ y: -30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: .2 }}
-            className="flex flex-col"
-          >
-            <label>Your Email</label>
-            <input
+            <Input
+              label="Email"
               type="email"
-              name="user_email"
-              placeholder="jhon@gmail.com"
-              className="border-b-[1px] w-[360px] md:w-[250px] lg:w-[300px] py-3 focus:outline-none"
+              name="email"
+              placeholder="Enter Your Email"
               required
             />
-          </motion.div>
+          </div>
         </div>
-        <div>
-          <motion.label
-            initial={{ scale: 0.9, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-          >
-            I’m interested in...
-          </motion.label>
-          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="flex flex-col gap-3">
+          <h1 className="text-xl">I’m interested in...</h1>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
             {interest.map((i, index) => (
-              <motion.li
+              <motion.div
                 initial={{ y: -30, opacity: 0 }}
                 whileInView={{ x: 0, y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="w-[170px] h-[62px] mt-[25px] rounded-[47px] flex items-center justify-center border-[#C5C5C5] border-[1px] text-[14px] hover:outline-0 hover:bg-black hover:text-[#C5C5C5]"
+                className="w-full h-12 rounded-lg flex items-center justify-center border-gray-200 border-[1px] text-sm hover:outline-0 hover:bg-primary cursor-pointer"
               >
                 {i.title}
-              </motion.li>
+              </motion.div>
             ))}
-          </ul>
+          </div>
         </div>
-        <div>
-          <motion.label
-            initial={{ scale: 0.9, opacity: 0 }}
-            whileInView={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-          >
-            Project budget (USD)
-          </motion.label>
-          <ul className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-            <motion.div initial={{ y: -30, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.6}}>
-            <input
-              type="text"
-              name="user_budget"
-              placeholder="Enter Your Price"
-              className="placeholder:text-center text-center focus:outline-none w-[170px] h-[62px] mt-[25px] rounded-[47px] flex items-center justify-center border-[#C5C5C5] border-[1px] text-[14px]"
-            />
-            </motion.div>
-            {budget.map((b, index) => (
-              <motion.li
+        <div className="flex flex-col gap-3">
+          <h1 className="text-xl">Project budget (USD)</h1>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+            {["<$1K", "$1K-$5K", "$5K-$10K", ">$20K"].map((budget, index) => (
+              <motion.div
                 initial={{ y: -30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-                className="w-[170px] h-[62px] mt-[25px] rounded-[47px] flex items-center justify-center border-[#C5C5C5] border-[1px] text-[14px] hover:outline-0 hover:bg-black hover:text-[#C5C5C5]"
+                className="w-full h-12 rounded-lg flex items-center justify-center border-gray-200 border-[1px] text-sm hover:outline-0 hover:bg-primary cursor-pointer"
               >
-                {b.title}
-              </motion.li>
+                {budget}
+              </motion.div>
             ))}
-          </ul>
+          </div>
         </div>
-        <motion.div
-          initial={{ y: -30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-          className="flex flex-col gap-5"
-        >
-          <label>Tell us more about your project</label>
-          <textarea
-            name="message"
-            placeholder="Something about your great idea"
-            className="h-[100px] border-b-[1px] focus:outline-none"
-          />
-        </motion.div>
-        <motion.div
-          initial={{ y: -30, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.6 }}
-        >
-          <input
-            type="submit"
-            value="Send"
-            className="w-[209px] h-[58px] rounded-[50px] bg-black text-white"
-          />
-        </motion.div>
+        <Input
+          label="Message"
+          name="message"
+          placeholder="Tell us more about yourself"
+          required
+          textarea
+        />
+        <button type="submit" className="w-full h-12 bg-primary rounded-lg">
+          Submit
+        </button>
       </form>
-      <div className="py-12 flex flex-col gap-14 text-[10px] md:text-[14px] lg:text-[16px] 2xl:text-[22px] uppercase">
+      <div className="my-10 flex flex-col justify-between text-lg uppercase">
         <motion.div
           initial={{ width: 0 }}
           whileInView={{ width: "100%" }}
           transition={{ duration: 0.6 }}
-          className="w-full h-px bg-[#858585]"
+          className="w-full h-px bg-black"
         ></motion.div>
-        <div className="flex flex-col lg:flex-row gap-3 items-center justify-between">
-          <motion.h6
-            initial={{ y: -30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-          >
-            © All rights reserved by devign
-          </motion.h6>
-          <motion.div
-            initial={{ y: 30, opacity: 0 }}
-            whileInView={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="flex gap-5 md:gap-[50px]"
-          >
-            <h6>Sitemap</h6>
+        <div className="flex flex-col lg:flex-row gap-3 items-center justify-between pt-10">
+          <p>
+            Copyright © {new Date().getFullYear()} Devign. All rights reserved.
+          </p>
+          <div className="flex gap-5 md:gap-10">
             <h6>Privacy Policy</h6>
             <h6>Terms of Use</h6>
             <h6>Cookie Policy</h6>
-          </motion.div>
+          </div>
         </div>
       </div>
     </div>

@@ -25,7 +25,6 @@ Welcome to the **Devign** project! This README provides an overview of the proje
 
 - Navbar
 - Home
-- Showcase
 - Expertise
 - Case
 - Questions
