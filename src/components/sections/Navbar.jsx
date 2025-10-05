@@ -25,13 +25,13 @@ export const Navbar = () => {
   const closeMenu = () => setMenuOpen(false);
 
   return (
-    <div id="navbar" className="w-full sticky top-0 z-10 bg-transparent">
+    <div id="navbar" className="w-full sticky top-0 z-10 bg-[#f3f3f3]">
       {/* Top Navbar */}
       <motion.div
         initial={{ y: -30, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6 }}
-        className="px-5 w-full h-16 flex items-center justify-between bg-white"
+        className="px-5 w-full h-16 flex items-center justify-between"
       >
         <Logo className="w-32" />
         <motion.div

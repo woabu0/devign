@@ -1,82 +1,52 @@
 {
-  "Budget": [
-    {
-      "title": "$1K-$5K"
-    },
-    {
-      "title": "$5K-$10K"
-    },
-    {
-      "title": ">$20K"
-    }
-  ],
   "Case": [
     {
       "img": "img/slide.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     },
     {
       "img": "img/slide2.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     },
     {
       "img": "img/slide.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     },
     {
       "img": "img/slide2.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     },
     {
       "img": "img/slide.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     },
     {
       "img": "img/slide2.svg",
       "alt": "img",
       "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era",
-      "tag1": "Case Study",
-      "tag2": "App Design",
-      "arrow": "img/work-arrow.svg"
+      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
     }
   ],
   "Expertise": [
     {
       "title": "User Experience & User interface design",
       "details": "By putting users' needs at the forefront, we tell a unique story of your company, juggling with fancy visual elements.",
-      "tag1": "Ui/ux Design",
+      "tag1": "UI/UX Design",
       "tag2": "Design System",
       "tag3": "Saas Design",
       "tag4": "Web Design",
       "tag5": "Mobile App",
-      "tag6": "User Research",
-      "id": "one"
+      "tag6": "User Research"
     },
     {
       "title": "Webflow & Custom Development",
@@ -86,8 +56,7 @@
       "tag3": "Webflow",
       "tag4": "Framer",
       "tag5": "Front-end",
-      "tag6": "Backend",
-      "id": "two"
+      "tag6": "Backend"
     },
     {
       "title": "Business Development",
@@ -97,8 +66,7 @@
       "tag3": "Motion Design",
       "tag4": "Strategy",
       "tag5": "Social Media",
-      "tag6": "Pitch Deck",
-      "id": "three"
+      "tag6": "Pitch Deck"
     }
   ],
   "Feedback": [
@@ -107,54 +75,42 @@
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     },
     {
       "profile": "img/profile.svg",
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     },
     {
       "profile": "img/profile.svg",
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     },
     {
       "profile": "img/profile.svg",
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     },
     {
       "profile": "img/profile.svg",
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     },
     {
       "profile": "img/profile.svg",
       "alt": "img",
       "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
       "name": "Danny Lairon",
-      "position": "CEO On Shoots and reels",
-      "country": "United States",
-      "id": "nfeed"
+      "country": "United States (CEO)"
     }
   ],
   "Interest": [
@@ -186,8 +142,8 @@
       "title": "Introduction"
     },
     {
-      "id": "showcase",
-      "title": "Showcase"
+      "id": "expertise",
+      "title": "Expertise"
     },
     {
       "id": "feedback",
@@ -212,8 +168,8 @@
       "desc": "Absolutely! Our UX design agency specializes in web design, offering comprehensive services to ensure an optimal online experience for your users. From user research and information architecture to wireframing, prototyping, and final UI design, we are committed to creating visually appealing, intuitive, and user-friendly websites. Our goal is to enhance user engagement and satisfaction, contributing to the overall success and growth of your online presence."
     },
     {
-      "title": "What separates mshstudio from other top UI/UX design agencies?",
-      "desc": "Mshstudio stands out among top UI/UX design agencies through its innovative approach, a diverse portfolio of successful projects, and a commitment to client satisfaction. With a focus on user-centered design, adaptability to industry trends, and a collaborative process, we aim to deliver exceptional digital experiences for our clients."
+      "title": "What separates devign from other top UI/UX design agencies?",
+      "desc": "Devign stands out among top UI/UX design agencies through its innovative approach, a diverse portfolio of successful projects, and a commitment to client satisfaction. With a focus on user-centered design, adaptability to industry trends, and a collaborative process, we aim to deliver exceptional digital experiences for our clients."
     },
     {
       "title": "What process should I expect from your UX agency?",
