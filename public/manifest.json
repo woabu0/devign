@@ -1,0 +1,19 @@
+{
+  "name": "Devign - Digital Design & Development Agency",
+  "short_name": "Devign",
+  "description": "We design and develop creative, user-friendly, and modern digital solutions for your brand.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F3F3F3",
+  "theme_color": "#B9FF66",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

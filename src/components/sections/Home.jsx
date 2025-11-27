@@ -3,31 +3,55 @@ import { motion } from "framer-motion";
 import { fadeAnimation } from "../animations/framer";
 import CompanyIcon from "../icons/company";
 import Marquee from "react-fast-marquee";
+import { MARQUEE_SPEED, SPINNER_DURATION, TEXT_SIZES } from "../../constants";
+
+const COMPANY_NAMES = [
+  "unreal",
+  "unity",
+  "microsoft",
+  "netflix",
+  "playstation",
+  "facebook",
+  "apple",
+  "google",
+  "xbox",
+  "razer",
+];
 
 export const Home = () => {
   return (
     <div
       id="home"
-      className="flex flex-col items-center justify-center px-5 text-7xl md:text-8xl lg:text-[140px] leading-none text-center"
-      style={{ height: "calc(100vh - 64px)" }}
+      className={`flex flex-col items-center justify-center px-4 sm:px-6 md:px-8 lg:px-12 ${TEXT_SIZES.HERO} leading-none text-center`}
+      style={{ minHeight: "calc(100vh - 3.5rem)" }}
     >
-      <p className="text-sm book mb-4">Powerful digital design agency</p>
+      <p className="text-xs sm:text-sm md:text-base mb-3 sm:mb-4">Powerful digital design agency</p>
       <motion.div {...fadeAnimation(0, -30, 0, 0, 0, 0.5)}>
-        <h1 className="flex items-center justify-center">
+        <h1 className="flex items-center justify-center flex-wrap gap-2 sm:gap-3 md:gap-4">
           We Make{" "}
           <img
-            src="img/scroll.svg"
+            src="/img/scroll.svg"
             alt="scroll"
-            className="spin w-12 h-12 md:w-20 lg:w-36 md:h-20 lg:h-36 2xl:w-48 2xl:h-48 animate-spin [animation-duration:7s]"
+            width="160"
+            height="160"
+            className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-24 lg:h-24 xl:w-32 xl:h-32 2xl:w-40 2xl:h-40 animate-spin"
+            style={{ animationDuration: `${SPINNER_DURATION}s` }}
+            fetchPriority="high"
+            decoding="async"
           />
         </h1>
         <div>
-          <h1 className="flex items-center justify-center">
+          <h1 className="flex items-center justify-center flex-wrap gap-2 sm:gap-3">
             Good{" "}
             <img
-              src="img/star.svg"
+              src="/img/star.svg"
               alt="star"
-              className="w-[49px] h-[49px] md:w-[80px] lg:w-[140px] md:h-[80px] lg:h-[140px] spin mx-3 animate-spin [animation-duration:7s]"
+              width="144"
+              height="144"
+              className="w-8 h-8 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20 xl:w-28 xl:h-28 2xl:w-36 2xl:h-36 mx-2 sm:mx-3 animate-spin"
+              style={{ animationDuration: `${SPINNER_DURATION}s` }}
+              fetchPriority="high"
+              decoding="async"
             />{" "}
             Shit!
           </h1>
@@ -35,26 +59,25 @@ export const Home = () => {
       </motion.div>
       <motion.p
         {...fadeAnimation(0, -30, 0, 0, 0, 0.5)}
-        className="text-lg md:w-3/5 mt-5"
+        className="text-sm sm:text-base md:text-lg lg:text-xl w-full sm:w-4/5 md:w-3/5 mt-4 sm:mt-5 md:mt-6 px-4"
       >
         We are experts in crafting seamless and user-centric digital
         experiences. Our passion is to design and develop interfaces that
         delight users and drive results.
       </motion.p>
-      <Marquee gradient pauseOnHover className=" w-[1280px] mt-10">
-        <div className="flex items-center gap-20">
-          <CompanyIcon name="unreal" className="w-12" />
-          <CompanyIcon name="unity" className="w-12" />
-          <CompanyIcon name="microsoft" className="w-12" />
-          <CompanyIcon name="netflix" className="w-12" />
-          <CompanyIcon name="playstation" className="w-12" />
-          <CompanyIcon name="facebook" className="w-12" />
-          <CompanyIcon name="apple" className="w-12" />
-          <CompanyIcon name="google" className="w-12" />
-          <CompanyIcon name="xbox" className="w-12" />
-          <CompanyIcon name="razer" className="w-12" />
-        </div>
-      </Marquee>
+      <div className="w-full max-w-7xl mt-6 sm:mt-8 md:mt-10 overflow-hidden">
+        <Marquee gradient pauseOnHover speed={MARQUEE_SPEED} className="w-full">
+          <div className="flex items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20 px-4">
+            {COMPANY_NAMES.map((name) => (
+              <CompanyIcon
+                key={name}
+                name={name}
+                className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 flex-shrink-0"
+              />
+            ))}
+          </div>
+        </Marquee>
+      </div>
     </div>
   );
 };

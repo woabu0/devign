@@ -1,40 +1,40 @@
 {
   "Case": [
     {
-      "img": "img/slide.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-ecommerce.jpg",
+      "alt": "E-commerce Case Study",
+      "title": "E-commerce Platform Redesign",
+      "details": "Explore the design journey of our e-commerce platform redesign, from concept to seamless user experience, and discover how its innovative features redefine online shopping in the digital era"
     },
     {
-      "img": "img/slide2.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-education.jpg",
+      "alt": "Education Platform Case Study",
+      "title": "Education Platform Transformation",
+      "details": "Discover how we transformed an education platform with intuitive design and user-centered approach, creating an engaging learning experience for students and educators"
     },
     {
-      "img": "img/slide.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-fintech.jpg",
+      "alt": "Fintech App Case Study",
+      "title": "Fintech Mobile App Design",
+      "details": "Explore the design journey of our fintech mobile app, from concept to seamless user experience, and discover how its innovative features redefine financial services"
     },
     {
-      "img": "img/slide2.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-food.jpg",
+      "alt": "Food Delivery App Case Study",
+      "title": "Food Delivery App Experience",
+      "details": "Learn how we created an exceptional food delivery experience with intuitive navigation, real-time tracking, and delightful interactions that keep users coming back"
     },
     {
-      "img": "img/slide.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-healthcare.jpg",
+      "alt": "Healthcare Platform Case Study",
+      "title": "Healthcare Platform Design",
+      "details": "Discover our approach to designing a healthcare platform that prioritizes patient care, accessibility, and trust through thoughtful UX and modern interface design"
     },
     {
-      "img": "img/slide2.svg",
-      "alt": "img",
-      "title": "Travel 24 Case Study",
-      "details": "Explore the design journey of Travel 24 app, from concept to seamless user experience, and discover how its innovative features redefine travel in the digital era"
+      "img": "/img/case-saas.jpg",
+      "alt": "SaaS Dashboard Case Study",
+      "title": "SaaS Dashboard Redesign",
+      "details": "Explore how we redesigned a complex SaaS dashboard to be more intuitive, efficient, and user-friendly, resulting in increased productivity and user satisfaction"
     }
   ],
   "Expertise": [
@@ -71,46 +71,46 @@
   ],
   "Feedback": [
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
+      "profile": "/img/feedback-david.jpg",
+      "alt": "David Johnson",
+      "feed": "Impressed with exceptional work, stunning design, and great adaptability. The team delivered beyond our expectations and created a product that truly resonates with our users.",
+      "name": "David Johnson",
       "country": "United States (CEO)"
     },
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
-      "country": "United States (CEO)"
+      "profile": "/img/feedback-emma.jpg",
+      "alt": "Emma Wilson",
+      "feed": "The attention to detail and user-centered approach made all the difference. Our conversion rates increased significantly after the redesign. Highly recommend their services.",
+      "name": "Emma Wilson",
+      "country": "United Kingdom (Product Manager)"
     },
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
-      "country": "United States (CEO)"
+      "profile": "/img/feedback-james.jpg",
+      "alt": "James Chen",
+      "feed": "Working with Devign was a game-changer for our startup. They understood our vision and translated it into a beautiful, functional design that our users love.",
+      "name": "James Chen",
+      "country": "Singapore (Founder)"
     },
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
-      "country": "United States (CEO)"
+      "profile": "/img/feedback-lisa.jpg",
+      "alt": "Lisa Anderson",
+      "feed": "Professional, creative, and deadline-oriented. The team's expertise in UX/UI design helped us create an intuitive platform that improved our user engagement by 40%.",
+      "name": "Lisa Anderson",
+      "country": "Canada (CTO)"
     },
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
-      "country": "United States (CEO)"
+      "profile": "/img/feedback-michael.jpg",
+      "alt": "Michael Rodriguez",
+      "feed": "Exceptional design quality and seamless collaboration. They took our complex requirements and created a solution that's both beautiful and highly functional.",
+      "name": "Michael Rodriguez",
+      "country": "Spain (Design Director)"
     },
     {
-      "profile": "img/profile.svg",
-      "alt": "img",
-      "feed": "Impressed with exceptional work, stunning design, and great adaptability.",
-      "name": "Danny Lairon",
-      "country": "United States (CEO)"
+      "profile": "/img/feedback-sarah.jpg",
+      "alt": "Sarah Thompson",
+      "feed": "The redesign exceeded all our expectations. The new interface is not only visually stunning but also significantly improved our user experience metrics.",
+      "name": "Sarah Thompson",
+      "country": "Australia (Marketing Lead)"
     }
   ],
   "Interest": [

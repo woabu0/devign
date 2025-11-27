@@ -5,9 +5,10 @@
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="manifest" href="/manifest.json" />
 
     <!-- Meta tags -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=5.0" />
     <meta
       name="description"
       content="Devign is a digital agency offering creative design and modern development services. We craft user-centric experiences, powerful interfaces, and innovative solutions for your brand."
@@ -17,6 +18,8 @@
       content="web development, web design, digital agency, UI/UX, creative agency, Devign"
     />
     <meta name="author" content="Devign Agency" />
+    <meta name="theme-color" content="#B9FF66" />
+    <meta name="robots" content="index, follow" />
 
     <!-- Open Graph (for social media sharing) -->
     <meta
@@ -31,8 +34,30 @@
     <meta property="og:url" content="https://yourdomain.com" />
     <meta property="og:image" content="https://yourdomain.com/preview.png" />
 
+    <!-- Resource Hints for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- Preload Critical Fonts with font-display: swap (non-blocking) -->
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <!-- Preload critical above-the-fold images -->
+    <link rel="preload" href="/img/scroll.svg" as="image" type="image/svg+xml" fetchpriority="high" />
+    <link rel="preload" href="/img/star.svg" as="image" type="image/svg+xml" fetchpriority="high" />
+
     <!-- Title -->
-    <title>Devign</title>
+    <title>Devign – Digital Design & Development Agency</title>
   </head>
   <body>
     <div id="root"></div>
