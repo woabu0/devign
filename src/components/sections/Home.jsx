@@ -30,7 +30,7 @@ export const Home = () => {
         <h1 className="flex items-center justify-center flex-wrap gap-2 sm:gap-3 md:gap-4">
           We Make{" "}
           <img
-            src="/img/scroll.svg"
+            src="./img/scroll.svg"
             alt="scroll"
             width="160"
             height="160"
@@ -44,7 +44,7 @@ export const Home = () => {
           <h1 className="flex items-center justify-center flex-wrap gap-2 sm:gap-3">
             Good{" "}
             <img
-              src="/img/star.svg"
+              src="./img/star.svg"
               alt="star"
               width="144"
               height="144"

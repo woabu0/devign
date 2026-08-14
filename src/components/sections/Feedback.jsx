@@ -66,7 +66,7 @@ export const Feedback = () => {
                     decoding="async"
                     fetchPriority="low"
                     onError={(e) => {
-                      e.target.src = "/img/feedback-david.jpg";
+                      e.target.src = "./img/feedback-david.jpg";
                     }}
                   />
                 </div>
