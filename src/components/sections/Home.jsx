@@ -67,7 +67,7 @@ export const Home = () => {
       </motion.p>
       <div className="w-full max-w-7xl mt-6 sm:mt-8 md:mt-10 overflow-hidden">
         <Marquee gradient pauseOnHover speed={MARQUEE_SPEED} className="w-full">
-          <div className="flex items-center gap-8 sm:gap-12 md:gap-16 lg:gap-20 px-4">
+          <div className="flex items-center gap-8 sm:gap-12 md:gap-16 lg:gap-24 ml-8 sm:ml-12 md:ml-16 lg:ml-24">
             {COMPANY_NAMES.map((name) => (
               <CompanyIcon
                 key={name}
